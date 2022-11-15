@@ -2,3 +2,7 @@ li::marker {
     content: '- ';
     font-size: 1.2em;
 }
+
+.text-justify {
+  text-align: justify;
+}
