@@ -84,9 +84,10 @@
                     <h6 class="mb-0">Front</h6>
                     <div class="mb-2">HTML/CSS, JavaScript, Bootstrap</div>
                     <h6 class="mb-0">Базы данных</h6>
-                    <div class="mb-2">SQL, PostgreSQL</div>
+                    <div class="mb-2">SQL, PostgreSQL, Redis</div>
                     <h6 class="mb-0">Технологии</h6>
-                    <div class="mb-2">Linux, Docker, Git, Nginx, Gunicorn</div>
+                    <div class="mb-2">Redis (кэш, брокер, БД), Celery (+Flower), Swagger, Docker,
+                        Linux, Git, Nginx, Gunicorn, OpenAI API</div>
                     <h6 class="mb-0">Иностранные языки</h6>
                     <div class="mb-2">Английский язык</div>
 
@@ -98,8 +99,7 @@
                 <div class="col col-12 col-lg-5 py-3 text-justify">
                     <h3>О СЕБЕ</h3>
                     В будущем вижу себя экспертом в сфере Python разработки с широким спектром применения навыков.
-                    Наибольший интерес вызывают веб-разработка, чат-боты, парсинг и автоматизация всего что можно
-                    автоматизировать.
+                    Наибольший интерес вызывают веб-разработка, чат-боты, парсинг и автоматизация процессов.
                 </div>
                 <div class="col d-none d-lg-block col-lg-0 border-end border-dark"></div>
                 <div class="col col-12 col-lg-6 pt-3">
@@ -112,6 +112,13 @@
                         через чат-бота, работающего в связке с веб-сайтом. Применяются Django, Telegram, PostgreSQL,
                         Yandex Speech Kit.
                     </div>
+                    <div class="mb-2 text-justify"><a href="https://t.me/xenadvisor_bot"
+                                                      class="text-primary text-decoration-none">
+                        ChatGPT</a> телеграм бот. Используются возможности OpenAI API: модель gpt-3.5-turbo для чат-бота,
+                        DALL-E для генерации, редактирования и вариации изображений. Имеется возможность генерировать
+                        изображения по промпту, сгенерированному чат-ботом. Бот переводит меню на язык пользователя с
+                        помощью библиотеки googletrans. Визуально выделены фрагменты ответов, содержащие код.
+                    </div>
                     <p>
                         <button class="btn btn-outline-primary pb-2" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -120,6 +127,12 @@
                     </p>
                     <div class="collapse" id="collapseExample">
                         <div class="mb-2 text-justify">
+                            - <a href="https://github.com/sammyjankins/django_tree_menu"
+                                 class="text-primary text-decoration-none">Древовидное меню </a>
+                             на Django. Реализовано при помощи template tags. Вложенные выпадающие меню визуализированы
+                            при помощи MDBootstrap.
+                        </div>
+                        <div class="mb-2 text-justify">
                             - <a href="https://github.com/sammyjankins/loyalty_cards"
                                  class="text-primary text-decoration-none">Прототип </a>
                             системы управления картами лояльности на Django.
@@ -127,7 +140,8 @@
                         <div class="mb-2 text-justify">
                             - <a href="https://github.com/sammyjankins/quiz_web_app"
                                  class="text-primary text-decoration-none">Приложение </a>
-                            для проведения тестирования на Django.
+                            для проведения тестирований на Django (применение NestedModelAdmin для удобства создания
+                            тестов)
                         </div>
                         <div class="mb-2 text-justify">- <a href="https://github.com/sammyjankins/dpd_act_bot"
                                                             class="text-primary text-decoration-none">Telegarm-бот</a>
