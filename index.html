@@ -86,7 +86,8 @@
                     <div class="mb-2">SQL, PostgreSQL, Redis</div>
                     <h6 class="mb-0">Технологии</h6>
                     <div class="mb-2">Linux, Git, Nginx, Gunicorn, OpenAI API, Pandas, beautifulsoup4,
-                        Selenium, Telegram API, Youtube API, VK API</div>
+                        Selenium, Telegram API, Youtube API, VK API
+                    </div>
                     <h6 class="mb-0">Иностранные языки</h6>
                     <div class="mb-2">Английский язык</div>
 
@@ -106,20 +107,81 @@
                 <div class="col col-12 col-lg-6 pt-3">
 
                     <h3>ПРОЕКТЫ</h3>
-                    <h6 class="mb-0">BookFinder</h6>
-                    <div class="mb-2 text-justify"><a href="https://www.bookfinder.space/"
-                                                      class="text-primary text-decoration-none">
-                        Каталогизатор книг</a> с точным указанием места хранения. Основные действия возможно выполнять
-                        через чат-бота, работающего в связке с веб-сайтом. Применяются Django, Telegram, PostgreSQL,
-                        Yandex Speech Kit.
+
+                    <p class="d-inline-flex gap-1">
+                        <a class="btn btn-outline-info" data-bs-toggle="collapse" href="#collapseDjangoE" role="button"
+                           aria-expanded="false" aria-controls="collapseDjangoE">
+                            E-commerce (Django 4, PostgreSQL)
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseDjangoE">
+                        <div class="card card-body">
+                            <a href="https://github.com/sammyjankins/django_e_commerce.git"
+                               class="text-primary text-decoration-none">Реализация интернет-магазина</a> из книги
+                            Антонио Меле "Django4 в примерах". В качестве БД - PostgreSQL. Применяются такие
+                            технологии как redis, RabbitMQ и Celery. Веб-приложение контейнеризировано при помощи
+                            docker-compose.
+                        </div>
                     </div>
-                    <div class="mb-2 text-justify"><a href="https://t.me/xenadvisor_bot"
+
+
+                    <p class="d-inline-flex gap-1">
+                        <a class="btn btn-outline-info" data-bs-toggle="collapse" href="#collapseFastAPIE" role="button"
+                           aria-expanded="false" aria-controls="collapseFastAPIE">
+                            E-commerce (FastAPI, MongoDB)
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseFastAPIE">
+                        <div class="card card-body">
+                            <a href="https://github.com/sammyjankins/fastapi_shop.git"
+                               class="text-primary text-decoration-none">
+                                Реализация того же интернет-магазина</a>, но при помощи FastAPI и MongoDB. В качестве
+                            драйвера
+                            БД испольpуется асинхронный драйвер Motor. Для приложения была отдельно разработана панель
+                            администрирвоания. Так же применяются redis, RabbitMQ и Celery. Контейнеризировано при
+                            помощи
+                            docker-compose.
+                        </div>
+                    </div>
+
+                    <p class="d-inline-flex gap-1">
+                        <a class="btn btn-outline-info" data-bs-toggle="collapse" href="#collapseBookFinder"
+                           role="button"
+                           aria-expanded="false" aria-controls="collapseBookFinder">
+                            BookFinder
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseBookFinder">
+                        <div class="card card-body">
+                            <a href="https://github.com/sammyjankins/book_finder"
+                               class="text-primary text-decoration-none">
+                                Каталогизатор книг</a> с точным указанием места хранения. Основные действия возможно
+                            выполнять
+                            через чат-бота, работающего в связке с веб-сайтом. Применяются Django, Telegram, PostgreSQL,
+                            Yandex Speech Kit.
+                        </div>
+                    </div>
+
+
+                                        <p class="d-inline-flex gap-1">
+                        <a class="btn btn-outline-info" data-bs-toggle="collapse" href="#collapseChatGPT"
+                           role="button"
+                           aria-expanded="false" aria-controls="collapseChatGPT">
+                            ChatGPT telegram bot
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseChatGPT">
+                        <div class="card card-body">
+                            <a href="https://github.com/sammyjankins/chatgpt_telegram"
                                                       class="text-primary text-decoration-none">
-                        ChatGPT</a> телеграм бот. Используются возможности OpenAI API: модель gpt-3.5-turbo для чат-бота,
+                        ChatGPT</a> телеграм бот. Используются возможности OpenAI API: модель gpt-3.5-turbo для
+                        чат-бота,
                         DALL-E для генерации, редактирования и вариации изображений. Имеется возможность генерировать
                         изображения по промпту, сгенерированному чат-ботом. Бот переводит меню на язык пользователя с
                         помощью библиотеки googletrans. Визуально выделены фрагменты ответов, содержащие код.
+                        </div>
                     </div>
+
                     <p>
                         <button class="btn btn-outline-primary pb-2" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -130,7 +192,7 @@
                         <div class="mb-2 text-justify">
                             - <a href="https://github.com/sammyjankins/django_tree_menu"
                                  class="text-primary text-decoration-none">Древовидное меню </a>
-                             на Django. Реализовано при помощи template tags. Вложенные выпадающие меню визуализированы
+                            на Django. Реализовано при помощи template tags. Вложенные выпадающие меню визуализированы
                             при помощи MDBootstrap.
                         </div>
                         <div class="mb-2 text-justify">
